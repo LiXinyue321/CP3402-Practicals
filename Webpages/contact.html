@@ -3,31 +3,56 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <title>Contact Us - Your Startup</title>
+    <title>Contact Exciting Ventures</title>
+    <link rel="stylesheet" href="styles.css"> 
 </head>
 <body>
 
     <header>
-        <!-- Navbar or any header content if needed -->
+        <h1>Contact Exciting Ventures</h1>
+        <p>Have a question or want to get in touch? Reach out to us!</p>
     </header>
 
-    <div class="container mt-5">
-        <h1>Contact Us</h1>
-        <p>Get in touch with us! Reach out via the following channels:</p>
-        <ul>
-            <li>Email: info@yourstartup.com</li>
-            <li>Phone: (123) 456-7890</li>
-            <!-- Add more contact information or a contact form here -->
-        </ul>
-    </div>
+    <section>
+        <h2>Contact Form</h2>
+        <form action="submit_form.php" method="post">
+            <label for="name">Your Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Your Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Your Message:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Submit</button>
+        </form>
+    </section>
+
+    <section>
+        <h2>Visit Us</h2>
+        <p>Come and visit our office at:</p>
+        <address>
+            Exciting Ventures<br>
+            123 Tech Street<br>
+            Innovation City, IC 12345<br>
+            Tel: +123 456 7890
+        </address>
+    </section>
+
+    <section>
+        <h2>Connect with Us</h2>
+        <p>Follow us on social media for the latest updates and news.</p>
+        <div class="social-media-icons">
+            <a href="#" target="_blank"><img src="facebook-icon.png" alt="Facebook"></a>
+            <a href="#" target="_blank"><img src="twitter-icon.png" alt="Twitter"></a>
+            <a href="#" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn"></a>
+        </div>
+    </section>
 
     <footer>
-        <!-- Footer content if needed -->
+        <p>&copy; 2023 Exciting Ventures. All rights reserved.</p>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
 </html>
